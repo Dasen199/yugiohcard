@@ -381,7 +381,7 @@
     cardLeaf.value = new YugiohCard({
       view: card.value,
       data: form.data,
-      resourcePath: process.env.NODE_ENV === 'production' ? './assets/yugioh-card' : 'src/assets/yugioh-card',
+      resourcePath: process.env.NODE_ENV === 'production' ? '/yugiohcard/assets/yugioh-card' : 'src/assets/yugioh-card',
     });
   }
 
